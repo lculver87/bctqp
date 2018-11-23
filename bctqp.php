@@ -11,36 +11,6 @@ License: GPLv2 or later
 */
 
 
-/**************************************************************************
-* Function github_plugin_updater_test_init()
-* Update Plugin from Repo
-**************************************************************************/
-
-add_action( 'init', 'github_plugin_updater_test_init' );
-
-function github_plugin_updater_test_init() {
-	include_once 'inc/updater.php';
-	define( 'WP_GITHUB_FORCE_UPDATE', true );
-	if ( is_admin() ) { // note the use of is_admin() to double check that this is happening in the admin
-		$config = array(
-			'slug' => 'bctqp',
-			'proper_folder_name' => 'bctqp',
-			'api_url' => 'https://api.github.com/repos/tyniuk/bctqp',
-			'raw_url' => 'https://raw.github.com/tyniuk/bctqp/master',
-			'github_url' => 'https://github.com/tyniuk/bctqp',
-			'zip_url' => 'https://github.com/tyniuk/bctqp/archive/master.zip',
-			'sslverify' => true,
-			'requires' => '4.9.8',
-			'tested' => '4.9.8',
-			'readme' => 'README.md',
-			'access_token' => '',
-		);
-		new WP_GitHub_Updater( $config );
-	}
-}
-
-
-
 function bctqp_enqueue_scripts() {
 
 }
