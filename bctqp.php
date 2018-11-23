@@ -270,6 +270,8 @@ add_action( 'init', create_function( '', 'global $WPGitHubUpdaterSetup; $WPGitHu
 
 function bctqp_enqueue_scripts() {
 
+//LOREM
+
 
 
 }
