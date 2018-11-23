@@ -4,7 +4,7 @@
 Plugin Name: BCT Quote Plugin
 Plugin URI: https://github.com/tyniuk/bctqp
 Description: A custom plugin to add recommendations and quotes to BCT website
-Version: 0.1
+Version: 0.2
 Author: Liam Cuver
 Author URI: http://tyni.uk
 */
@@ -41,11 +41,6 @@ function github_plugin_updater_test_init() {
 
 
 function bctqp_enqueue_scripts() {
-
-//LOREM
-
-$ing;
-
 
 }
 
