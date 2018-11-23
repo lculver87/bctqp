@@ -17,7 +17,7 @@ Author URI: http://tyni.uk
 
 add_action( 'init', 'github_plugin_updater_test_init' );
 function github_plugin_updater_test_init() {
-	include_once 'updater.php';
+	include_once 'inc/updater.php';
 	define( 'WP_GITHUB_FORCE_UPDATE', true );
 	if ( is_admin() ) { // note the use of is_admin() to double check that this is happening in the admin
 		$config = array(
