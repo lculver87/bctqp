@@ -30,8 +30,8 @@ function github_plugin_updater_test_init() {
 			'github_url' => 'https://github.com/tyniuk/bctqp',
 			'zip_url' => 'https://github.com/tyniuk/bctqp/archive/master.zip',
 			'sslverify' => true,
-			'requires' => '3.0',
-			'tested' => '3.3',
+			'requires' => '4.9.8',
+			'tested' => '4.9.8',
 			'readme' => 'README.md',
 			'access_token' => '',
 		);
