@@ -27,7 +27,7 @@ function github_plugin_updater_test_init() {
 			'api_url' => 'https://api.github.com/repos/tyniuk/bctqp',
 			'raw_url' => 'https://raw.github.com/tyniuk/bctqp/master',
 			'github_url' => 'https://github.com/tyniuk/bctqp',
-			'zip_url' => 'https://github.com/jtyniuk/bctqp',
+			'zip_url' => 'https://github.com/tyniuk/bctqp/archive/master.zip',
 			'sslverify' => true,
 			'requires' => '3.0',
 			'tested' => '3.3',
