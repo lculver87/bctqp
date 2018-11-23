@@ -7,6 +7,7 @@ Description: A custom plugin to add recommendations and quotes to BCT website
 Version: 0.2
 Author: Liam Cuver
 Author URI: http://tyni.uk
+License: GPLv2 or later
 */
 
 
