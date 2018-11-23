@@ -13,12 +13,13 @@ Author URI: http://tyni.uk
 
 
 /**************************************************************************
-* Function pxlfaq_enqueue_scripts()
+* Function bctqp_enqueue_scripts()
 * Enqueues the necessary scripts for the plugin
 **************************************************************************/
 
 function bctqp_enqueue_scripts() {
 
+ //
 
 }
 
