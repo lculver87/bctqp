@@ -2,7 +2,7 @@
 
 /*
 Plugin Name: Big Chief Tipis Quote Plugin
-Plugin URI: https://github.com/tyniuk/bctquoteplugin
+Plugin URI: https://github.com/tyniuk/bctqp
 Description: A WordPress plugin to easily add an FAQs section to your WordPress site.
 Version: 1.0
 Author: Liam Cuver
