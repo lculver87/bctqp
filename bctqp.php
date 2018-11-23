@@ -23,7 +23,7 @@ function github_plugin_updater_test_init() {
 	if ( is_admin() ) { // note the use of is_admin() to double check that this is happening in the admin
 		$config = array(
 			'slug' => plugin_basename( __FILE__ ),
-			'proper_folder_name' => 'bctqp',
+			'proper_folder_name' => dirname( plugin_basename( __FILE__ ) ),
 			'api_url' => 'https://api.github.com/repos/tyniuk/bctqp',
 			'raw_url' => 'https://raw.github.com/tyniuk/bctqp/master',
 			'github_url' => 'https://github.com/tyniuk/bctqp',
