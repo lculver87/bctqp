@@ -22,7 +22,7 @@ function github_plugin_updater_test_init() {
 	define( 'WP_GITHUB_FORCE_UPDATE', true );
 	if ( is_admin() ) { // note the use of is_admin() to double check that this is happening in the admin
 		$config = array(
-			'slug' => plugin_basename( __FILE__ ),
+			'slug' => 'bctqp',
 			'proper_folder_name' => 'bctqp',
 			'api_url' => 'https://api.github.com/repos/tyniuk/bctqp',
 			'raw_url' => 'https://raw.github.com/tyniuk/bctqp/master',
